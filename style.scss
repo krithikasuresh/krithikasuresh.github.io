@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Rokkitt:400,700|Quicksand:400,700|Righteous|Lobster+Two:400,700);
+
+body {
+    margin: none;
+}
+
+.header {
+    background-color: black;
+    border-radius: 25px;
+    background-image:
+        radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+        radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+        radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+        radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 195px 195px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    height: 340px;
+}
+
+.name, .bio, .header {
+    color: white;
+    text-align: center;
+}
+
+.name {
+    font-family: pacifico;
+    font-size: 100px;
+    padding: 10%;
+    padding-bottom: 0px;
+    margin-bottom: -30px;
+}
+
+.bio {
+    font-family: righteous;
+    font-size: 26px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.contact {
+    padding-top: 1%;
+    text-align: center;
+    font-family: righteous;
+    font-size: 30px;
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.resume, .linkedin, .git {
+    padding: 10px;
+    background-color: black;
+    display: block;
+    margin: 7.5%;
+    border-radius: 15px; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
