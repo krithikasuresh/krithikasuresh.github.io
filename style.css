@@ -4,9 +4,8 @@
     align-content: center;
     color: #AA4B41;
     height: 100%;
+    overflow: auto;
     width: 30%;
-    flex-direction: column;
-    flex-wrap: wrap;
     float:left;
     background: -webkit-linear-gradient(left,rgba(212,221,225,0),rgba(212,221,225,1)); /*Safari 5.1-6*/
     background: -o-linear-gradient(right,rgba(212,221,225,0),rgba(212,221,225,1)); /*Opera 11.1-12*/
@@ -27,16 +26,9 @@ a:hover {
     text-decoration: none;
     list-style: none;
     color: #335252;
-    font-size: 30px;
+    font-size: 1.2em;
     font-family: bree serif;
     padding-left: 12%;
-}
-
-img {
-    
-}
-.l1, .l2, .l3, .l4{
-padding-top: 10px;
 }
 
 .l2:hover, .l3:hover, .l4:hover {
@@ -58,6 +50,7 @@ cursor: pointer;
     display: inline-block;
     height: 100%;
     width: 69.8%;
+    overflow: auto;
     justify-content: center;
     float:right;
     background: -webkit-linear-gradient(#424242, #2D3033); /* For Safari 5.1 to 6.0 */
@@ -69,11 +62,11 @@ cursor: pointer;
 }
 
 .header {
-    padding-top: 30px;
+    padding-top: 20px;
     margin-bottom: 0px;
     margin-left: 25%;
     margin-right: 25%;
-    font-size: 50px;
+    font-size: 3em;
     color: #D4DDE1;
     font-family: bree serif;
     border-top-style: none;
@@ -85,9 +78,8 @@ cursor: pointer;
     margin-left: 20%;
     margin-right: 20%;
     color: #D4DDE1;
-    font-size: 32px;
+    font-size: 1.5em;
     border-bottom-style: none;
-    padding-bottom: 2.5%;
 }
 
 
@@ -98,12 +90,12 @@ cursor: pointer;
 
 .quote {
     color: #AA4B41;
-    font-size: 29px;
+    font-size: 1.5em;
     margin-top: -1px;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: -30px;
-    padding-top: 10px;
+    padding-top: 0.5em;
     border: none;
     text-align: right;
 }
@@ -115,40 +107,27 @@ cursor: pointer;
 h1, h2, h3 {
     text-align: center;
     font-family: pacifico;
-    flex-shrink: 1px;
     text-decoration: none;
     list-style: none;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 h1 {
-    flex-shrink: 1px;
-    padding-top: 50px;
     color: #2D3033;
-    font-size: 75px;
+    font-size: 3em;
     margin-bottom: 0px;
     border-top-color: #AA4B41;
-    border-top-style: double;
-    border-top-width: thick;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
 }
 
 h2 {
     margin-top: 0px;
-    padding-bottom: 50px;
-    font-size: 30px;
-    border-bottom-style: double;
-    border-width: thick;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
+    padding-bottom: 30px;
+    font-size: 2em;
 }
-
 
 h3 {
     color: #2D3033;
-    font-size: 40px;
+    font-size: 2em;
     font-family: bree serif;
     padding-top: 20px;
     margin-bottom: 20px;
