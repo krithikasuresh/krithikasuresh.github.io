@@ -14,7 +14,8 @@
 }
 
 a {
-    color: #335252;
+    color: rgba(51,82,82, 0.5);
+    text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
     text-decoration: none;
 }
 
@@ -25,10 +26,11 @@ a:hover {
 .list {
     text-decoration: none;
     list-style: none;
-    color: #335252;
+    color: rgba(51,82,82, 0.5);
+    text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
     font-size: 1.2em;
     font-family: bree serif;
-    padding-left: 12%;
+    padding-left: 7%;
 }
 
 .l2:hover, .l3:hover, .l4:hover {
@@ -70,6 +72,7 @@ cursor: pointer;
     color: #D4DDE1;
     font-family: bree serif;
     border-top-style: none;
+    border-bottom-color: #D4DDE1;
     border-bottom-style: double;
     border-bottom-width: thick;
 }
@@ -77,19 +80,22 @@ cursor: pointer;
 .about {
     margin-left: 20%;
     margin-right: 20%;
-    color: #D4DDE1;
+    color: rgba(0, 0, 0, 0.1);
+    text-shadow: 1px -3px 0px #D4DDE1;
     font-size: 1.5em;
     border-bottom-style: none;
 }
 
-
 .two {
+    border-bottom-color: #AA4B41;
     margin-bottom: 20px;
-    color: #AA4B41;
+    color: rgba(0, 0, 0, 0.1);
+    text-shadow: 1px -3px 0px #AA4B41;
 }
 
 .quote {
-    color: #AA4B41;
+    color: rgba(0, 0, 0, 0.1);
+    text-shadow: 1px -3px 0px #AA4B41;
     font-size: 1.5em;
     margin-top: -1px;
     margin-left: 20%;
@@ -106,30 +112,39 @@ cursor: pointer;
 
 h1, h2, h3 {
     text-align: center;
-    font-family: pacifico;
+    font-family: bree serif;
     text-decoration: none;
     list-style: none;
-    padding-top: 20px;
 }
 
 h1 {
-    color: #2D3033;
+    color: rgba(45,48,51,0.7);
+    text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
+    padding-top: 10%;
     font-size: 3em;
     margin-bottom: 0px;
     border-top-color: #AA4B41;
 }
 
+.one {
+    color: rgba(0, 0, 0, 0.1);
+    text-shadow: 1px -3px 0px #D4DDE1;
+}
+
 h2 {
-    margin-top: 0px;
+    font-family: pacifico;
+    color: rgba(170,75,65,0.8);
+    text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
+    margin-top: -10px;
     padding-bottom: 30px;
     font-size: 2em;
 }
 
 h3 {
-    color: #2D3033;
+    color: rgba(45,48,51,0.7);
+    text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
     font-size: 2em;
-    font-family: bree serif;
-    padding-top: 20px;
+    padding-top: 30%;
     margin-bottom: 20px;
     margin-left: 12.5%;
     margin-right: 12.5%;
@@ -137,8 +152,3 @@ h3 {
     border-bottom-style: double;
     border-bottom-width: thick;
 }
-
-
-
-
-
