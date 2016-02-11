@@ -1,16 +1,25 @@
-.sidebar {
+/*.sidebar {
     display: inline-block;
     background-color: #D4DDE1;
     align-content: center;
-    color: #AA4B41;
-    height: 100%;
-    overflow: auto;
+    height: 50%;
     width: 30%;
-    float:left;
+    float: center;
     background: -webkit-linear-gradient(left,rgba(212,221,225,0),rgba(212,221,225,1)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(right,rgba(212,221,225,0),rgba(212,221,225,1)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(right,rgba(212,221,225,0),rgba(212,221,225,1)); /*Fx 3.6-15*/
-    background: linear-gradient(to right, rgba(212,221,225,0), rgba(212,221,225,1)); /*Standard*/
+    /*background: -o-linear-gradient(right,rgba(212,221,225,0),rgba(212,221,225,1)); /*Opera 11.1-12*/
+    /*background: -moz-linear-gradient(right,rgba(212,221,225,0),rgba(212,221,225,1)); /*Fx 3.6-15*/
+    /*background: linear-gradient(to right, rgba(212,221,225,0), rgba(212,221,225,1)); /*Standard*/
+/*
+}
+*/
+
+.sidebar {
+    position: absolute;
+    background-color: #D4DDE1;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
 }
 
 a {
@@ -21,6 +30,12 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+.post {
+    text-decoration: underline;
+    text-shadow: none;
+    color: #AA4B41;
 }
 
 .list {
@@ -42,7 +57,7 @@ a:hover {
     background-color: #2D3033;
     display: inline-block;
     height: 100%;
-    width: 69.8%;
+    width: 100%;
     overflow: auto;
     justify-content: center;
     float:right;
