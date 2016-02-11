@@ -30,7 +30,6 @@ a:hover {
     cursor: pointer;
 }
 
-
 .bkgd {
     background-color: #2D3033;
     display: inline-block;
@@ -43,31 +42,6 @@ a:hover {
     background: linear-gradient(#424242, #2D3033); /* Standard syntax */
     font-family: bree serif;
 
-}
-
-.two {
-    border-bottom-color: #AA4B41;
-    margin-bottom: 20px;
-    color: rgba(0, 0, 0, 0.1);
-    text-shadow: 1px -3px 0px #AA4B41;
-}
-
-.quote {
-    display: absolute;
-  color: rgba(51,82,82, 0.5);
-    text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
-    font-size: 1.5em;
-    margin-top: -1px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: -30px;
-    padding-top: 0.5em;
-    border: none;
-    text-align: right;
-}
-
-.author {
-    padding-top: 30px;
 }
 
 h1, h2, h3 {
@@ -86,10 +60,11 @@ h1 {
 }
 
 .about {
-    color: rgba(51,82,82, 0.5);
+    color: rgba(170,75,65,0.8);
     text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
     font-size: 1.2em;
-margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
     border-bottom-color: #AA4B41;
@@ -99,3 +74,22 @@ margin: 5%;
     border-top-style: double;
     border-top-width: thick;
 }
+
+.quote {
+    display: absolute;
+    font-family: bree serif;
+    color: rgba(170,75,65,0.8);
+    text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
+    font-size: 1.2em;
+    margin-top: -1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -30px;
+    padding-top: 0.5em;
+    text-align: right;
+}
+
+.author {
+    padding-top: 30px;
+}
+
