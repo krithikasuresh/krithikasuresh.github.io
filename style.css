@@ -1,7 +1,7 @@
 .sidebar {
     position: absolute;
     background-color: #D4DDE1;
-    opacity: 0.7;
+    opacity: 0.8;
     top: 25%;
     left: 25%;
     width: 50%;
@@ -16,8 +16,6 @@ a:hover {
     text-decoration: none;
     display: inline;
     list-style: none;
-    color: rgba(51,82,82, 0.5);
-    text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
     font-size: 1.2em;
     font-family: bree serif;
     padding-left: 2%;
@@ -32,15 +30,11 @@ a:hover {
 }
 
 .bkgd {
-    background-color: #2D3033; 
+    background-color: #99433a; 
     display: inline-block;
     height: 100%;
     width: 100%;
     overflow: auto;
-    background: -webkit-linear-gradient(#424242, #2D3033); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#424242, #2D3033); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#424242, #2D3033); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#424242, #2D3033); /* Standard syntax */
     font-family: bree serif;
 }
 
