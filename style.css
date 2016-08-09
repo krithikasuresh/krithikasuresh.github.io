@@ -1,95 +1,20 @@
-.sidebar {
-    position: absolute;
-    background-color: #D4DDE1;
-    opacity: 0.8;
-    top: 25%;
-    left: 25%;
-    width: 50%;
-    height: 50%;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-.list, li {
-    text-decoration: none;
-    display: inline;
-    list-style: none;
-    font-size: 1.2em;
-    font-family: bree serif;
-    padding-left: 2%;
-}
-
-.list {
-    padding-left: 35%;
-}
-
-.l2:hover, .l3:hover, .l4:hover {
-    cursor: pointer;
-}
-
-.bkgd {
-    background-color: #99433a; 
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    font-family: bree serif;
-}
-
-.floral {
-    position: relative;
-    height: 100%;
-    left: 34.7%;
-}
-
-h1, h2, h3 {
-    text-align: center;
-    font-family: bree serif;
-    text-decoration: none;
-    list-style: none;
+body {
+    font-family: raleway;
+    font-style: normal;
+    background-color: #F1F3F4;
 }
 
 h1 {
-    color: rgba(45,48,51,0.7);
-    text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
-    padding-top: 2%;
-    font-size: 3em;
-    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
 
-.about {
-    color: rgba(170,75,65,0.8);
-    text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
-    font-size: 1.2em;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-bottom-color: #AA4B41;
-    border-bottom-style: double;
-    border-bottom-width: thick;
-    border-top-color: #AA4B41;
-    border-top-style: double;
-    border-top-width: thick;
+#description {
+    margin-right: 40%;
+    border-bottom-style: solid;
 }
 
-.quote {
-    display: absolute;
-    font-family: bree serif;
-    color: rgba(170,75,65,0.8);
-    text-shadow: 1px 4px 6px #D4DDE1, 0 0 0 #000, 1px 4px 6px #D4DDE1;
-    font-size: 1.2em;
-    margin-top: -1px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: -30px;
-    padding-top: 0.5em;
-    text-align: right;
+.list {
+    padding-right: 15px;
+    padding-left: 15px;
 }
-
-.author {
-    padding-top: 30px;
-}
-
