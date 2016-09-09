@@ -24,8 +24,20 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px
+}
+
 h2, h3 {
     text-align: center;
+}
+
+p {
+    font-size: 16px;
 }
 
 #me {
@@ -38,7 +50,10 @@ h2, h3 {
 }
 
 #experience {
+}
 
+.project {
+    padding-bottom: 10px;
 }
 #contactMe {
     background-color: beige;
