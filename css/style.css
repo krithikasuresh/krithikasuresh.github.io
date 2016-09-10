@@ -1,0 +1,65 @@
+body {
+    font-family: raleway;
+    background-color: white;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  min-height: 50px;
+}
+
+header {
+	background-image: url('../img/Unsplash_JakeGivens_SunsetInThePark.jpg');
+    background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+#me {
+    max-height: 300px;
+}
+
+#aboutMe {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.imgProject {
+    max-height: 400px;
+}
+
+.project {
+    padding-bottom: 20px;
+}
+#contactMe {
+    background-color: beige;
+}
+
+.btn {
+    padding: 2%;
+}

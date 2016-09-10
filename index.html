@@ -3,39 +3,38 @@
         <link href='https://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>
         <!-- Bootstrap core CSS -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!--<script src="smoothscroll.js"></script>-->
+        <script src="script/smoothscroll.js"></script>
     </head>
     <body>
 
         <!-- Navigation -->
-        <!--
-<nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
-<div class="container" id = "navbar">
-<div class="navbar-header text-center">
-<ul class="nav navbar-nav">
-<li>
-<a href = "#">Krithika Suresh</a>
-</li>
-<li>
-<a href = "#aboutMe">About Me</a>
-</li>
-<li>
-<a href = "#experience">Experience</a>
-</li>
-<li>
-<a href = "#contactMe">Contact Me</a>
-</li>
-</ul>
-</div>
-</div>
-</nav>
--->
+        <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container" id = "navbar">
+                <div class="navbar-header text-center">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href = "#landingScreen">Krithika Suresh</a>
+                        </li>
+                        <li>
+                            <a href = "#aboutMe">About Me</a>
+                        </li>
+                        <li>
+                            <a href = "#experience">Experience</a>
+                        </li>
+                        <li>
+                            <a href = "#contactMe">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <!-- Title -->
         <header>
-            <div class = "landingScreen">
+            <div id = "landingScreen">
                 <h1 class = "text-center">Krithika Suresh</h1>
             </div>
         </header>
@@ -65,11 +64,12 @@
             <div class = "row">
                 <div class = "col-md-6 project">
                     <h3>Personal Website</h3>
-                    <p>Created a personal website to showcase what I've done and to improve skills using HTML and CSS.</p>
+                    <p class = "text-center"> Created a personal website to showcase what I've done and to improve skills using HTML and CSS.</p>
+                    <img src = "img/websiteLanding.png" class = "imgProject img-responsive center-block" style="max-height:220px">
                 </div>
                 <div class = "col-md-6 project">
-                    <h3>How I Help Project</h3>
-                    <p>A project to improve the process between donors and charities. We worked on designing the process and developing the UI/UX of the website.</p>
+                    <h3>"How I Help" Project</h3>
+                    <p class = "text-center">A project to improve the process between donors and charities. We worked on designing the process and developing the UI/UX of the website.</p><img src = "img/HIHimg.jpg" class = "imgProject img-responsive center-block" style="max-height:220px">
                 </div>
             </div>
         </div>
